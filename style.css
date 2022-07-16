@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'mulish';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: url('fonts/Mulish-VariableFont_wght.ttf')
+}
+
+.trafalgarlogo {
+    display: inline-block;
+}
+
+.navbar a,
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    display: block;
+    float: right;
+
+}
+
+.nav {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.navbar :first-child {
+    color: #000;
+}
+
+.dots {
+    display: block;
+    float: left;
+}
+
+.title {
+    display: inline-block;
+    width: 390px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 40px
+}
+
+.text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    width: 429px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.content {
+    float: left;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.ilustration {
+    margin-left: 90px;
+}
+
+.consult {
+    background-color: #458FF6;
+    border: none;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.consult:active {
+    box-shadow: 2px 2px 20px #000
+}
+
+.hr {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin: 50px auto;
+}
+
+.sentense {
+    width: 790px;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.service {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 150px;
+
+}
+
+.cards {
+    position: absolute;
+    margin-top: -480px;
+    background-color: #fff;
+    width: 290px;
+    height: 292px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px rgba(229, 233, 246, 0.4);
+}
+
+.container {
+    text-align: center;
+}
+
+.card1 {
+    margin-left: 330px;
+}
+
+.card2 {
+    margin-left: 650px;
+}
+
+.card3 {
+    margin-left: 970px;
+}
+
+.part2 {
+    margin-top: -160px;
+    margin-left: 330px;
+}
+
+.card5 {
+    margin-left: 650px;
+}
+
+.card6 {
+    margin-left: 970px;
+}
+
+.lupa {
+    margin-left: -120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cards h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.cards p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    text-align: start;
+    line-height: 25px;
+    width: 245px;
+    margin-left: 30px;
+}
+
+.card5 .lupa {
+    margin-top: 70px;
+}
+
+.end {
+    display: block;
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    background: none;
+    width: 200px;
+    height: 54px;
+    border-radius: 55px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 290px;
+    margin-bottom: 100px;
+
+}
+
+.end:active {
+    background: #458FF6;
+    color: #fff;
+}
+
+.part3 {
+    width: 360px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 180px;
+    margin-bottom: 35px;
+
+}
+
+.part3 p {
+    line-height: 25px;
+    opacity: 0.6;
+    margin-top: 15px;
+
+}
+
+.part3 h1 {
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.hr2 {
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+}
+
+.ilustration2 {
+    float: left;
+    margin-left: 125px;
+}
+
+.btn1 {
+    margin-right: 340px;
+}
+
+/*content2*/
+.dots2 {
+    float: right;
+    margin-top: -70px
+}
+
+.content2 {
+    float: left;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.app {
+    float: right;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+
+.btn2 img {
+    margin-left: 10px;
+}
+
+.btn2 {
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.comment {
+    width: 1000px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    height: 425px;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+}
+
+.comment h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 70px;
+    font-size: 30px;
+
+
+
+}
+
+.bluebg {
+    float: right;
+    margin-top: -140px;
+    margin-right: 20px;
+
+}
+
+.hr3 {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 30px auto;
+    display: block;
+}
+
+.photo1 {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 50px;
+}
+
+.info {
+    width: 400px;
+    font-size: 18px;
+    float: right;
+    color: #fff;
+    margin-top: -90px;
+    line-height: 30px;
+    margin-right: 90px;
+}
+
+.person {
+    color: #fff;
+    line-height: 30px;
+    margin-top: 110px;
+    margin-left: 250px;
+}
+
+.person h4 {
+    font-size: 22px;
+}
+
+.ldots {
+    margin-left: 130px;
+    margin-top: 250px;
+}
+
+.carusel {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cicle {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5B9BF3;
+    opacity: 30%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.right {
+    margin-left: 30px;
+}
+
+.bold {
+    opacity: 100%;
+}
+
+.left {
+    opacity: 30%;
+}
+
+.check {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.cardp {
+    width: 300px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    margin-left: 8%;
+    line-height: 30px;
+    height: 200px;
+    background: #000;
+    box-shadow: 5px 5px 30px  black;
+}
+
+.cardp img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* .nuqtalar{
+    float: left;
+    position: absolute; */
+
+.wrap {
+    margin: 0 auto;
+
+}
+
+.cardp p {
+    opacity: 50%;
+    width: 250px;
+}
+
+.cardp .read {
+    color: #458FF6;
+    opacity: 100%;
+
+}
+
+.cardp3 h4 {
+    margin-bottom: 30px
+}
+
+.cardp1 {
+    border-radius: 20px;
+}
+
+.footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100%;
+    height: 432px;
+    padding-left: 50px;
+}
+
+.para1 {
+    width: 340px;
+    line-height: 30px;
+
+}
+
+.pr,
+.hrr {
+    width: 120px;
+    display: inline-block;
+    margin-left: 90px;
+    line-height: 30px;
+
+}
+
+.family {
+    display: inline-block;
+}
+
+.region {
+    margin-left: 90px;
+}
+
+.para2 {
+    margin-top: 30px;
+}
+
+.family img {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
